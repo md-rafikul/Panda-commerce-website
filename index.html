@@ -11,7 +11,7 @@
 
 <body>
     <header class="container-fluid">
-        <nav class="navbar navbar-expand-lg bg-light">
+        <nav class="navbar navbar-expand-lg fixed-top  bg-light">
             <div class="container">
                 <a class="navbar-brand" href="#">
                     <img src="panda-commerce-bootstrap-main/images/logo.png" alt="">
@@ -27,13 +27,13 @@
                             <a class="nav-link active" aria-current="page" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Shoes</a>
+                            <a class="nav-link" href="#shoes">Shoes</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Backbpack</a>
+                            <a class="nav-link" href="#bags">Backbpack</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link" href="#">Subscribe</a>
+                            <a class="nav-link" href="#subscribe">Subscribe</a>
                         </li>
                     </ul>
 
@@ -143,7 +143,7 @@
 
         </section>
 
-        <section class="container my-5">
+        <section class="container my-5 " id="shoes">
             <h2>Shoes</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -188,7 +188,7 @@
                 </div>
             </div>
         </section>
-        <section class="container my-5">
+        <section class="container my-5" id="bags">
             <h2>Backbpack</h2>
             <div class="row row-cols-1 row-cols-md-3 g-4">
                 <div class="col">
@@ -233,7 +233,30 @@
                 </div>
             </div>
         </section>
+        <section id="subscribe" style=" height:300px" ;
+            class="container d-flex rounded-3 bg-info align-items-center justify-content-center ">
+            <div>
+                <h2>LET'S STAY IN TOUCH
+                </h2>
+                <p>Get updates on sales, specials and more
+
+                </p>
+                <form>
+
+                    <div class="mb-1">
+                        <label for="exampleInputPassword1" class="form-label"></label>
+                        <input type="password" class="form-control" id="exampleInputPassword1">
+                    </div>
+
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+        </section>
     </main>
+    <footer class="mt-5 text-center">
+        <p><small>©2023. Panda Commerce. All rights reserved. Sofia, Bulgaria.</small></p>
+    </footer>
     trap@5.2.0/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-A3rJD856KowSb7dwlZdYEkO39Gagi7vIsF0jrRAoQmDKKtQBHUuLZ9AsSv4jD4Xa"
     crossorigin="anonymous"></script>
